@@ -19,5 +19,3 @@ def line():
     Y2 = coeficiente_A * coeficiente_X2 + coeficiente_B
     distancia = math.sqrt((coeficiente_X2 - coeficiente_X1)**2 + (Y2 - Y1)**2)
     print(f"La distancia entre ellos es: {distancia}")
-if __name__ == '__main__':
-    line()
